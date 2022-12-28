@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+footer{
+  width: 100%;
+  height: auto;
+}
+
+.copyright{
+    background-color: var(--bg-color-1);
+    color: var(--color-gray);
+    padding: 0 80px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-content{
+    color: white;
+    background-image: url(./img/01.png);
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    padding: 60px 60px 40px 60px;
+}
+
+.pic-container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.pic{
+    position: relative;
+    background-image: url(./img/100x100.png);
+    border: solid 1px red;
+    height: 100px;
+    cursor: pointer;
+}
+
+.pic:hover .overlay{
+    opacity: 0.8;
+}
+
+.overlay{
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--color-gray);
+    transition: ease-in-out 0.4s;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.footer-content-piclink{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.footer-content-piclink i{
+    font-size: 3rem;
+}
+
+.sec1 p{
+    margin: 50px 0 0 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box-icon{
+    display: flex;
+    width: 200px;
+    margin: 30px 5px;
+    justify-content: space-between;
+}
+
+.sec3 h3{
+    margin-bottom: 10px;
+}
+
+.title{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.sec2 li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    color: var(--color-blue);
+    margin: 15px;
+}
+
+.sec2, .sec4 li:hover{
+    cursor: pointer;
+}
+
+.sec4 li:nth-last-child(5){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    color: var(--color-blue);
+    margin: 15px;
+}
+
+.sec4 li:nth-last-child(2){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    color: var(--color-blue);
+    margin: 15px;
+}
+
+.sec4 li:nth-last-child(1){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    color: var(--color-gray);
+    margin: 15px;
+}
+
+.sec4 li:nth-last-child(4){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    color: var(--color-gray);
+    margin: 15px;
+}
+
+hr{
+    border: solid 0.5px var(--color-gray);
+    opacity: 25%;
+}

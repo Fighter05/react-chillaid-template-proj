@@ -1,0 +1,42 @@
+.home-content-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-image: url(./img/01.png);
+}
+
+.home-content{
+    color: white;
+}
+
+.home-content h3{
+    color: white;
+    font-size: 3.75rem;
+    font-weight: lighter;
+}
+
+.home-content p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    line-height: 1.5rem;
+}
+
+.home-btn_content{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding: 12px;
+    background-color: var(--color-blue);
+    border: 2px solid var(--color-blue);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.home-btn_content:hover{
+    background-color: transparent;
+    transition: 0.3s ease-in-out;
+    border: 2px solid white;
+}
