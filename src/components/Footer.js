@@ -46,7 +46,7 @@ function Footer() {
                 </ul>
             </div>
             <div className="sec3">
-                <h3 className='title'>Tincidunt Ullamcorper</h3>
+                <h3 className='title'>Tincidunt Ullamcorper55555</h3>
                 <div className="pic-container">
                     <div className="pic">
                         <div className="overlay">
