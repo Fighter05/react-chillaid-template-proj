@@ -1,0 +1,31 @@
+:root {
+    --bg-color-1: #282e39;
+    --bg-color-2: #2b2f37;
+    --bg-color-3: #798694;
+    --bg-color-4: #f4f4f4;
+    --color-blue: #97a9bd;
+    --color-purple: #a197bd;
+    --color-orange: #bda697;
+    --color-green: #97bdab;
+    --color-white: #e7ffff;
+    --color-gray: #a5a6aa;
+    --color-link: rgb(103, 123, 162);
+  }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.content4-container{
+    width: 100%;
+    height: auto;
+    padding: 70px 130px;
+    background-color: white;
+}
+
+.contact-box-title{
+    text-align: center;
+    margin-bottom: 70px;
+}

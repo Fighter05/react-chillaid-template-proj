@@ -21,14 +21,15 @@ function Footer() {
                 <p>Scelerisque facilisis sapien turpis <br></br>
                 facilisis libero eu viverra purus dui <br></br>
                 ac leo sed vitae diam morbi sed <br></br>
-                nibh in eget dolor phasellus rhoncus odio morbi elit <br></br> 
-                nunc id elit donec elementum [...]</p>
+                nibh in eget dolor phasellus <br></br> 
+                rhoncus odio morbi elit nunc id elit <br></br>
+                donec elementum [...]</p>
                 <ul className='box-icon'>
-                    <FaFacebookSquare style={style}/>
-                    <FaGooglePlusSquare style={style}/>
-                    <FaLinkedin style={style}/>
-                    <FaTwitterSquare style={style}/>
-                    <FaInstagramSquare style={style}/>
+                    <a href='#'><FaFacebookSquare style={style}/></a>
+                    <a href='#'><FaGooglePlusSquare style={style}/></a>
+                    <a href='#'><FaLinkedin style={style}/></a>
+                    <a href='#'><FaTwitterSquare style={style}/></a>
+                    <a href='#'><FaInstagramSquare style={style}/></a>
                 </ul>
             </div>
             <div className="sec2">
@@ -46,7 +47,7 @@ function Footer() {
                 </ul>
             </div>
             <div className="sec3">
-                <h3 className='title'>Tincidunt Ullamcorper55555</h3>
+                <h3 className='title'>Tincidunt Ullamcorper</h3>
                 <div className="pic-container">
                     <div className="pic">
                         <div className="overlay">
@@ -117,11 +118,11 @@ function Footer() {
             <div className="sec4">
                 <h3 className='title'>Fusce Vel Lectus Nunc</h3>
                 <ul>
-                    <li>Lacinia donec tortor lectus varius vel egestas a dictum in odio mauris metus.</li>
-                    <li>Friday, 6th April 2045</li>
+                    <li>Lacinia donec tortor lectus varius vel egestas a dictum in odio mauris metus.
+                    <p>Friday, 6th April 2045</p></li>
                     <hr />
-                    <li>Turpis iaculis ac hendrerit vel pretium non magna sed non metus ut at nisi morbi.</li>
-                    <li>Thursday, 5th April 2045</li>
+                    <li>Turpis iaculis ac hendrerit vel pretium non magna sed non metus ut at nisi morbi.
+                    <p>Thursday, 5th April 2045</p></li>
                 </ul>
             </div>
         </div>

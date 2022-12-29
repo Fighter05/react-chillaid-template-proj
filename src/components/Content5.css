@@ -1,0 +1,74 @@
+:root {
+    --bg-color-1: #282e39;
+    --bg-color-2: #2b2f37;
+    --bg-color-3: #798694;
+    --bg-color-4: #f4f4f4;
+    --color-blue: #97a9bd;
+    --color-purple: #a197bd;
+    --color-orange: #bda697;
+    --color-green: #97bdab;
+    --color-white: #e7ffff;
+    --color-gray: #a5a6aa;
+    --color-link: rgb(103, 123, 162);
+  }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.content5-container{
+    width: 100%;
+    height: auto;
+    padding: 70px 130px;
+    background: linear-gradient(180deg, var(--bg-color-4) 55%, white 45%);
+}
+
+.white-bg{
+    background-color: white;
+    height: 50vh;
+}
+
+.contact-box-title{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.content5-pic{
+    background-image: url(./img/348x400.png);
+    width: 348px;
+    height: 400px;
+    position: relative;
+}
+
+.content5-pic:hover .overlay{
+    opacity: 0.8;
+}
+
+.content5-3pic{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 0 250px;
+}
+
+.content5-pic{
+    cursor: pointer;
+}
+
+.content5-picname{
+    border: solid 1px lightgray;
+    padding: 15px;
+    transition: .3s ease-in-out;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content5-picname p:nth-child(1){
+    font-size: 1.25rem;
+}
+
+.content5-picname p:nth-child(2){
+    font-size: 0.75rem;
+}

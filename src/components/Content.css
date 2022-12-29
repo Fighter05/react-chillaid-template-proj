@@ -3,18 +3,17 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 100vh;
     background-image: url(./img/01.png);
+    height: 75vh;
 }
 
 .home-content{
     color: white;
+    margin-top: -40px;
 }
 
 .home-content h3{
-    color: white;
     font-size: 3.75rem;
-    font-weight: lighter;
 }
 
 .home-content p{

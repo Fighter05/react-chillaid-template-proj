@@ -14,7 +14,7 @@ function Contact() {
       <div className='contact-box-content'>
         <div className="contact-left">
           <div className="contact-1">
-            <div className="contact-icon-box" style={{backgroundColor: 'var(--color-purple)'}}>
+            <div className="contact-icon-box">
               <BsFillTelephoneFill />
             </div>
             <div className="contact-data-box">
@@ -23,7 +23,7 @@ function Contact() {
             </div>
           </div>
           <div className="contact-1">
-            <div className="contact-icon-box" style={{backgroundColor: 'var(--color-orange)'}}>
+            <div className="contact-icon-box">
               <IoLocationSharp/>
             </div>
             <div className="contact-data-box">
@@ -32,12 +32,12 @@ function Contact() {
             </div>
           </div>
           <div className="contact-1">
-            <div className="contact-icon-box" style={{backgroundColor: 'var(--color-green)'}}>
+            <div className="contact-icon-box">
               <FiMail/>
             </div>
             <div className="contact-data-box">
               <p style={{fontWeight: 'bold'}}>Come Visit Us:</p>
-              <p>Directions to <span style={{color: 'var(--color-link)'}}>our location</span></p>
+              <p>Directions to <span>our location</span></p>
             </div>
           </div>
         </div>

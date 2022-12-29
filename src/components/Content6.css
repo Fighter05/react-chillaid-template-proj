@@ -1,0 +1,76 @@
+:root {
+    --bg-color-1: #282e39;
+    --bg-color-2: #2b2f37;
+    --bg-color-3: #798694;
+    --bg-color-4: #f4f4f4;
+    --color-blue: #97a9bd;
+    --color-purple: #a197bd;
+    --color-orange: #bda697;
+    --color-green: #97bdab;
+    --color-white: #e7ffff;
+    --color-gray: #a5a6aa;
+    --color-link: rgb(103, 123, 162);
+  }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.content6-container{
+    width: 100%;
+    height: auto;
+    padding: 70px 130px;
+    background-color: var(--color-blue);
+}
+
+.content6-box-title{
+    color: white;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.content6-flexbox{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+}
+
+.content6-databox{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.content6-box{
+    width: 48%;
+}
+
+.content6-imgbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 20px;
+    color: white;
+}
+
+.content6-img-circle{
+    background-image: url(./img/01.png);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.content6-imgbox p:nth-child(2){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.75rem;
+}
+
+.content6-imgbox p:nth-child(1){
+    font-size: 1.5rem;
+    line-height: 20px;
+}

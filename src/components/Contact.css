@@ -1,3 +1,17 @@
+:root {
+    --bg-color-1: #282e39;
+    --bg-color-2: #2b2f37;
+    --bg-color-3: #798694;
+    --bg-color-4: #f4f4f4;
+    --color-blue: #97a9bd;
+    --color-purple: #a197bd;
+    --color-orange: #bda697;
+    --color-green: #97bdab;
+    --color-white: #e7ffff;
+    --color-gray: #a5a6aa;
+    --color-link: rgb(103, 123, 162);
+  }
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -6,7 +20,7 @@
 
 .contact-container{
     width: 100%;
-    height: 80vh;
+    height: auto;
     padding: 70px 130px;
     background-color: var(--bg-color-4);
 }
@@ -35,16 +49,65 @@
     display: flex;
     justify-content: space-between;
     padding: 13px;
+    cursor: pointer;
 }
 
 .contact-icon-box{
     border-radius: 50%;
-    width: 9%;
+    width: 60px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1.5rem;
     color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.contact-data-box p:nth-child(2){
+    transition: .5s ease-in-out;
+}
+
+.contact-data-box p:nth-child(1){
+    transition: .9s ease-in-out;
+}
+
+.contact-1:nth-child(1) .contact-icon-box{background-color: var(--color-purple);}
+.contact-1:nth-child(2) .contact-icon-box{background-color: var(--color-orange);}
+.contact-1:nth-child(3) .contact-icon-box{background-color: var(--color-green);}
+
+.contact-1:nth-child(1):hover{background-color: var(--color-purple);}
+
+.contact-1:nth-child(1):hover .contact-icon-box{
+    color: var(--color-purple);
+    background-color: white;
+}
+
+.contact-1:nth-child(1):hover .contact-data-box p{color: white;}
+
+.contact-1:nth-child(2):hover{background-color: var(--color-orange);}
+
+.contact-1:nth-child(2):hover .contact-icon-box{
+    color: var(--color-orange);
+    background-color: white;
+}
+
+.contact-1:nth-child(2):hover .contact-data-box p{color: white;}
+
+.contact-1:nth-child(3):hover{background-color: var(--color-green);}
+
+.contact-1:nth-child(3):hover .contact-icon-box{
+    color: var(--color-green);
+    background-color: white;
+}
+
+.contact-1:nth-child(3):hover .contact-data-box p{color: white;}
+
+.contact-1:nth-child(3):hover .contact-data-box span{color: white;}
+
+.contact-data-box span{
+    color: var(--color-link);
+    transition: .3s ease-in-out;
 }
 
 .contact-data-box{
