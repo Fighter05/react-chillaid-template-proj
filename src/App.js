@@ -9,11 +9,12 @@ import Content6 from './components/Content6'
 import Content7 from './components/Content7'
 import Footer from './components/Footer'
 import Contact from './components/Contact'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
 function App() {
   return (
-    <div className="App">
+    <Router>
       <Navbar />
       <Content />
       <Content2 />
@@ -24,7 +25,7 @@ function App() {
       <Content7 />
       <Contact />
       <Footer />
-    </div>
+    </Router>
   );
 }
 

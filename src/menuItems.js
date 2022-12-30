@@ -1,6 +1,7 @@
 export const menuItems = [
   {
     title: "HOME",
+    path: "/App"
   },
   {
     title: "PAGES",

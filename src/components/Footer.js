@@ -8,7 +8,10 @@ import {
     FaInstagramSquare
 } from "react-icons/fa"
 
-const style = { fontSize: "1.5em" }
+const style = { 
+    fontSize: "1.5em",
+    color: 'white'
+ }
 function Footer() {
     return (
         <div className='body'>

@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import { Link } from 'react-router-dom'
 
 import Dropdown from "./Dropdown";
 
@@ -54,7 +55,7 @@ const MenuItems = ({ items, depthLevel }) => {
           />
         </>
       ) : (
-        <a href="/#">{items.title}</a>
+        <Link href={items.path}>{items.title}</Link>
       )}
     </li>
   );
